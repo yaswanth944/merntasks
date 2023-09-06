@@ -1,0 +1,53 @@
+.container {
+  width: 1000px;
+  height: 525px;
+  line-height: 20px;
+  margin: 100px;
+  padding-right: 0px;
+  margin-left: 500px;
+}
+img {
+  border-radius: 35% 35% 35% 35%;
+  margin-left: 100px;
+}
+
+input[type="text"] {
+  width: 50%;
+  height: 40px;
+}
+input[type="submit"] {
+  width: 51%;
+  background-color: green;
+  height: 50px;
+  border: none;
+}
+input[type="password"] {
+  width: 50%;
+  height: 40px;
+}
+
+#sub {
+  background-color: grey;
+  width: 50%;
+  display: block;
+  margin-bottom: 100px;
+  padding: 5px;
+}
+.container #sub p {
+  text-align: right;
+  margin: 5px;
+}
+.container #sub button {
+  background-color: rgba(176, 29, 29, 0.912);
+  border: none;
+  border-radius: 1px 1px 1px 1px;
+  float: left;
+  margin-top: 2px;
+  padding-top: 5px;
+}
+h3 {
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background-color: rgb(216, 82, 82);
+}

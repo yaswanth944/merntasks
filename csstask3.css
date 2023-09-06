@@ -1,0 +1,22 @@
+th {
+  background-color: rgb(53, 221, 115);
+  text-align: left;
+}
+tr:nth-of-type(2n + 1) {
+  background-color: rgb(208, 202, 202);
+}
+tr:nth-of-type(2n) {
+  background-color: rgb(231, 231, 231);
+}
+table {
+  width: 50%;
+  height: 200%;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+tr,
+th,
+td {
+  height: 50px;
+  padding-left: 10px;
+}
